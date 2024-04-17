@@ -1,0 +1,1192 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 17, 2024 10:11:43 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@newProject</a><a class="dropdown-item" href="#">@RatesandTrends_Valid</a><a class="dropdown-item" href="#">@compareLocalities</a><a class="dropdown-item" href="#">@FindPincode_Defect</a><a class="dropdown-item" href="#">@RatesandTrends_Invalid</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To check MB Advice functionality</p>
+            <p class="text-sm">
+              <span>10:11:44 am</span> / <span>00:01:07:982</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To check MB Advice functionality</h5>
+<span class='badge badge-success'>04.17.2024 10:11:44 am</span>
+<span class='badge badge-danger'>04.17.2024 10:12:52 am</span>
+<span class='badge badge-default'>00:01:07:982</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>to validate show trends button with valid Location</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_is_on_rates_and_trends_webpage()">
+                <span>Given User is on Rates and Trends webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with valid Location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded1.png' src="./Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_enter_input(io.cucumber.datatable.DataTable)">
+                <span>When User enter input</span>
+      <div><table class='markup-table table '><tr><td>thane</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with valid Location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded2.png' src="./Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_opens_city_filter_drop_down_list()">
+                <span>And User select option from dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with valid Location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded3.png' src="./Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.click_on_show_trends_button()">
+                <span>And Click on show trends button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with valid Location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded4.png' src="./Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.it_should_display_the_trends_for_entered_location()">
+                <span>Then It should display the trends for entered location</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with valid Location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded5.png' src="./Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>to validate show trends button with invalid location</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_is_on_rates_and_trends_page()">
+                <span>Given User is on Rates and Trends page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with invalid location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded6.png' src="./Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_enter_invalid_input(io.cucumber.datatable.DataTable)">
+                <span>When User enter invalid input</span>
+      <div><table class='markup-table table '><tr><td>tkhane</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with invalid location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded7.png' src="./Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.click_on_show_the_trends_button()">
+                <span>And Click on show the trends button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with invalid location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded8.png' src="./Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.it_should_give_error_message()">
+                <span>Then It should give error message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate show trends button with invalid location
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded9.png' src="./Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="22"><span class="badge log pass-bg mr-2">Pass</span>to validate compare localities and project feature</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>to validate compare localities and project feature</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User is on compare localities page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate compare localities and project feature
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded10.png' src="./Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User click on compare option</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate compare localities and project feature
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded11.png' src="./Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on radio button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate compare localities and project feature
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded12.png' src="./Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters "Oberoi" and "Blu"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate compare localities and project feature
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded13.png' src="./Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Clicks on compare button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate compare localities and project feature
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded14.png' src="./Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User gets redirected to Compare page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate compare localities and project feature
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded15.png' src="./Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>to validate new project functionality</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_is_on_new_projects_page()">
+                <span>Given User is on new projects page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded16.png' src="./Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_scrolls_up_the_page()">
+                <span>When User scrolls down the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded17.png' src="./Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.clicks_on_the_filters_option_available()">
+                <span>And Clicks on the filters option available</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded18.png' src="./Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.select_city_from_dropdown_list()">
+                <span>And Select city from dropdown list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded19.png' src="./Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.select_hotspot()">
+                <span>And Select hotspot</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded20.png' src="./Screenshots/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.select_budget_using_scrollbar()">
+                <span>And Select budget using scrollbar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded21.png' src="./Screenshots/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.select_bhk_option()">
+                <span>And Select BHK option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded22.png' src="./Screenshots/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.select_possesion_year()">
+                <span>And Select possesion year</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded23.png' src="./Screenshots/embedded23.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.click_on_view_project()">
+                <span>And Click on View Project</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded24.png' src="./Screenshots/embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.projects_are_displayed_with_selected_filter()">
+                <span>Then Projects are displayed with selected filter</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate new project functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded25.png' src="./Screenshots/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="57"><span class="badge log fail-bg mr-2">Fail</span>to validate find pincode functionality</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_is_on_find_pincode_page()">
+                <span>Given User is on find pincode page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate find pincode functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded26.png' src="./Screenshots/embedded26.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_scroll_down_page()">
+                <span>When User Scroll down page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate find pincode functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded27.png' src="./Screenshots/embedded27.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_select_state_from_dropdown()">
+                <span>And User Select state from dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate find pincode functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded28.png' src="./Screenshots/embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.select_city_from_dropdown()">
+                <span>And Select City from dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate find pincode functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded29.png' src="./Screenshots/embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.user_does_not_select_locality_dropdown()">
+                <span>And User does not select locality dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate find pincode functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded30.png' src="./Screenshots/embedded30.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="MbStepDefinition.Mb_Advice.click_on_search_button()">
+                <span>And Click on search button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate find pincode functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded31.png' src="./Screenshots/embedded31.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="MbStepDefinition.Mb_Advice.it_should_display_an_error_message()">
+                <span>Then It should display an error message</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Please select locality] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at MbStepDefinition.Mb_Advice.it_should_display_an_error_message(Mb_Advice.java:297)
+	at ✽.It should display an error message(file:///C:/Users/pisharad/OneDrive%20-%20Capgemini/Desktop/Sprint2/MB_Advice/src/test/resource/MbFeatures/MbAdvice.feature:69)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>MbStepDefinition.Mb_Advice.takeScreendown(io.cucumber.java.Scenario)</span>
+      <div>to validate find pincode functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./Screenshots/embedded32.png' src="./Screenshots/embedded32.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:12:52 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='70'>Then It should display an error message</a>
+<div class="">
+<span class="badge badge-default">To check MB Advice functionality.to validate find pincode functionality.Then It should display an error message</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">5</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@newProject</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@newProject</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:25 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>to validate new project functionality</a>
+<div class="">
+<span class="badge badge-default">To check MB Advice functionality.to validate new project functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@RatesandTrends_Valid</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RatesandTrends_Valid</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:11:44 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>to validate show trends button with valid Location</a>
+<div class="">
+<span class="badge badge-default">To check MB Advice functionality.to validate show trends button with valid Location</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@compareLocalities</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@compareLocalities</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:12:10 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='23'>to validate compare localities and project feature</a>
+<div class="">
+<span class="badge badge-default">To check MB Advice functionality.to validate compare localities and project feature</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@FindPincode_Defect</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@FindPincode_Defect</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:12:44 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='57'>to validate find pincode functionality</a>
+<div class="">
+<span class="badge badge-default">To check MB Advice functionality.to validate find pincode functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@RatesandTrends_Invalid</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RatesandTrends_Invalid</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:11:57 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>to validate show trends button with invalid location</a>
+<div class="">
+<span class="badge badge-default">To check MB Advice functionality.to validate show trends button with invalid location</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 17, 2024 10:11:43 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 17, 2024 10:12:52 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='80%'><b>4</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='20%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='98%'><b>63</b> steps passed</small></div>
+<div>
+<small data-tooltip='1%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"To check MB Advice functionality":67.982
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@newProject</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@RatesandTrends_Valid</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@compareLocalities</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@FindPincode_Defect</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@RatesandTrends_Invalid</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>Eclipse</td>
+</tr>
+<tr>
+<td>user</td>
+<td>PISHARAD</td>
+</tr>
+<tr>
+<td>build</td>
+<td>windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 4,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 63,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

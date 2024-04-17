@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="68.346" tests="5" skipped="0" failures="1" errors="0">
+<testcase classname="To check MB Advice functionality" name="to validate show trends button with valid Location" time="12.791">
+<system-out><![CDATA[
+Given User is on Rates and Trends webpage...................................passed
+When User enter input.......................................................passed
+And User select option from dropdown........................................passed
+And Click on show trends button.............................................passed
+Then It should display the trends for entered location......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check MB Advice functionality" name="to validate show trends button with invalid location" time="12.921">
+<system-out><![CDATA[
+Given User is on Rates and Trends page......................................passed
+When User enter invalid input...............................................passed
+And Click on show the trends button.........................................passed
+Then It should give error message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check MB Advice functionality" name="to validate compare localities and project feature - Example #1.1" time="15.507">
+<system-out><![CDATA[
+Given User is on compare localities page....................................passed
+When User click on compare option...........................................passed
+And User clicks on radio button.............................................passed
+And User enters "Oberoi" and "Blu"..........................................passed
+And Clicks on compare button................................................passed
+Then User gets redirected to Compare page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check MB Advice functionality" name="to validate new project functionality" time="19.027">
+<system-out><![CDATA[
+Given User is on new projects page..........................................passed
+When User scrolls down the page.............................................passed
+And Clicks on the filters option available..................................passed
+And Select city from dropdown list..........................................passed
+And Select hotspot..........................................................passed
+And Select budget using scrollbar...........................................passed
+And Select BHK option.......................................................passed
+And Select possesion year...................................................passed
+And Click on View Project...................................................passed
+Then Projects are displayed with selected filter............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check MB Advice functionality" name="to validate find pincode functionality" time="7.867">
+<failure type="java.lang.AssertionError" message="expected [Please select locality] but found []">
+<![CDATA[java.lang.AssertionError: expected [Please select locality] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at MbStepDefinition.Mb_Advice.it_should_display_an_error_message(Mb_Advice.java:297)
+	at ✽.It should display an error message(file:///C:/Users/pisharad/OneDrive%20-%20Capgemini/Desktop/Sprint2/MB_Advice/src/test/resource/MbFeatures/MbAdvice.feature:69)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on find pincode page..........................................passed
+When User Scroll down page..................................................passed
+And User Select state from dropdown.........................................passed
+And Select City from dropdown...............................................passed
+And User does not select locality dropdown..................................passed
+And Click on search button..................................................passed
+Then It should display an error message.....................................failed
+]]></system-out>
+</testcase>
+</testsuite>
